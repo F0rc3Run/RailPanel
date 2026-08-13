@@ -5,6 +5,9 @@ A small VLESS panel built for Railway, with a Cloudflare-backed node generator.
 It drives Xray directly, with no other panel underneath, and has **no npm
 dependencies** — everything comes from the Node standard library, so the build
 installs nothing and there is no dependency tree to audit.
+## Dashboard
+
+![RailPanel Dashboard](https://raw.githubusercontent.com/F0rc3Run/F0rc3run-backend/refs/heads/main/FVL-S/Panel.jpg)
 
 [راهنمای فارسی ↓](#راهنمای-فارسی)
 
