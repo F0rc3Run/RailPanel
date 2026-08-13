@@ -182,7 +182,7 @@ would work.
   around in channels are the ones everyone else uses, so they get blocked
   first.
 - **Ports** — 443 is on by default. The other five work through Cloudflare but
-  many mobile networks pass only 443; turn them on only after testing that they
+  many networks pass only 443; turn them on only after testing that they
   reach you.
 - **Tuning** — keep ALPN on `http/1.1`. If h2 gets negotiated the WebSocket
   upgrade fails and every node stops working.
@@ -426,7 +426,7 @@ Railway چند دامنه روی یک سرویس می‌پذیرد و همه ب�
 است که بقیه هم دارند، پس زودتر از همه بلاک می‌شود.
 
 - **پورت‌ها** — ۴۴۳ پیش‌فرض روشن است. پنج پورت دیگر از طریق کلادفلر کار
-می‌کنند ولی خیلی از شبکه‌های موبایل فقط ۴۴۳ را رد می‌کنند؛ بقیه را فقط بعد از
+می‌کنند ولی خیلی از شبکه‌ها فقط ۴۴۳ را رد می‌کنند؛ بقیه را فقط بعد از
 تست کردن روشن کن.
 
 - **تنظیم دقیق** — ALPN را روی `http/1.1` نگه دار. اگر h2 مذاکره شود، ارتقا به
